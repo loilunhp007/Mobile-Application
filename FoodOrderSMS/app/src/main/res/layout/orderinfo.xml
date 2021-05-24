@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical">
+    <ImageView
+        android:id="@+id/confirm"
+        android:layout_width="fill_parent"
+        android:layout_height="300dp"
+        android:src="@drawable/confirmorder"></ImageView>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="20dp">
+        <TextView
+            android:text="Lựa chọn:"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="monospace"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            ></TextView>
+
+        <TextView
+            android:id="@+id/choiceinfo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="monospace"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            android:layout_gravity="right"
+            ></TextView>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="20dp">
+        <TextView
+            android:text="Size:"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="monospace"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            ></TextView>
+
+        <TextView
+            android:id="@+id/sizeinfo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="monospace"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            android:layout_gravity="right"
+            ></TextView>
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="20dp">
+        <TextView
+            android:text="Độ ngọt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="monospace"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            ></TextView>
+
+        <TextView
+            android:id="@+id/sweetnessinfo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="monospace"
+            android:textSize="20dp"
+            android:layout_gravity="right"
+            ></TextView>
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="20dp">
+        <TextView
+            android:text="Đá"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right"
+            android:fontFamily="monospace"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            ></TextView>
+
+        <TextView
+            android:id="@+id/iceinfo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="monospace"
+            android:textSize="20dp"
+            ></TextView>
+
+    </LinearLayout>
+    <Button
+        android:id="@+id/confirmbtn"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:backgroundTint="#07FAE6"
+        android:text="Confirm"
+        android:textStyle="bold">
+    </Button>
+
+</LinearLayout>
